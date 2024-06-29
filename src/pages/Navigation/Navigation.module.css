@@ -1,0 +1,8 @@
+.nav {
+    @apply flex flex-col text-black px-1 bg-gradient-to-br from-blue-900 to-blue-300 rounded-tr-3xl max-w-md min-h-screen;
+    flex:0;
+}
+
+.link {
+    @apply block font-bold text-center pt-2 text-black text-pretty relative no-underline  hover:text-white pb-1
+}

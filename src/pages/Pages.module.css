@@ -1,0 +1,46 @@
+.contain {
+    @apply pb-40 flex flex-col justify-start text-left px-5 pt-10
+}
+
+h1 {
+    @apply text-4xl font-bold pb-10
+}
+
+h2 {
+    @apply text-2xl font-bold pb-1 pt-8
+}
+
+h3 {
+    @apply text-base font-bold pb-1 pt-2
+}
+
+span {
+    @apply font-bold
+}
+
+.preCode {
+    @apply bg-gray-200 p-1 mb-3 border border-gray-300 rounded-lg font-mono
+}
+pre {
+    @apply bg-gray-200 p-1 mb-3 border border-gray-300 rounded-lg font-mono
+}
+
+code {
+    @apply text-sm
+}
+
+.ul {
+    @apply list-disc pl-5 pb-5
+}
+
+.button {
+    @apply mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg
+}
+
+.links {
+    @apply text-center font-bold bg-red-700 rounded-xl p-2 hover:bg-blue-900 transition duration-300 hover:shadow-2xl hover:shadow-blue-700
+}
+
+span {
+    @apply text-sm text-red-400 font-bold
+}
